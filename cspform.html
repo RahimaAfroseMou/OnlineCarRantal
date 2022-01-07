@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Project</title>
+   <style>
+  h4,h3{ text-align:center;
+       color:green;}
+  form{ 
+          background-color: blue;
+          color: pink;
+          margin: 10px 400px;
+          border-radius: 4px;
+          padding: 10px;}
+  input,textarea{
+          align:center;
+         width:98%;
+          padding: 12px 20px;
+          margin:6px 4px;
+          border: 1px solid black;
+          border-radius: 4px;
+          box-sizing: border-box;}
+   input[type=submit]{
+          background-color: green;
+          color: white;
+          border-radius: 4px;}
+ </style>
+ </head>
+ <body>
+ <div>
+ <h3>Car service provider creation form</h3>
+<form action="buyticket.php" method="post">
+<br><h4>Insert your personal data</h4>
+<label>Your name: </label>
+<input type="text" name="name" placeholder="Insert your full name" required/><br>
+<label>Address: </label>
+<textarea name="address" placeholder="Your address" required></textarea><br>
+<label>Your NID number: </label>
+<input type="number" name="nid" placeholder="Insert your NID number" required/><br>
+<label>Your phone number: </label>
+<input type="number" name="phone" placeholder="Insert phone number" required/><br>
+<label>Your E-mail</label>
+<input type="email" name="email" placeholder="Insert your email" required/><br><br>
+<label>Password: </label>
+<input type="password" name="pass" placeholder="Insert your password" required/><br>
+<label>Car model: </label>
+<input type="text" name="model" placeholder="Insert your car model" required/><br>
+<label>Car no: </label>
+<input type="text" name="no" placeholder="Insert your car number" required/><br>
+<input type="submit" name="submit">
+</form>
+</div>
+</body>
+</html>

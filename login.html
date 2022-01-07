@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Project</title>
+   <style>
+  h3,h4{ text-align: center;
+        color: green;}
+   form{ 
+          background-color: blue;
+          color: pink;
+          margin: 10px 500px;
+          border-radius: 4px;
+          padding: 10px;}
+ input[type=submit]{
+          text-align:center;
+          background-color: green;
+          color: white;
+          border-radius: 4px;}
+ </style>
+ </head>
+ <body>
+ <div>
+ <h3>Login page</h3>
+<form action="bookingcar.php" method="post">
+<label for="type">Login type: </label>
+<select name="type" required/>
+<option value="user">User</option>
+<option value="csp">Car service provider</option>
+<option value="admin">Admin</option>
+</select><br><br> 
+
+<label>Your E-mail: </label>
+<input type="email" name="email" required/><br><br>
+<label>Password: </label>
+<input type="password" name="pass" placeholder="Insert your password" required/><br>
+<input type="submit" name="submit">
+</form>
+<a href="page1.html"><h4>Create your account</h4></a>
+</div>
+</body>
+</html>
+
+
